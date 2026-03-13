@@ -192,6 +192,7 @@ input, select, textarea {
 		max-width: 100%;
 		width: 1400px;
 		background-color: dimgray;
+		box-shadow: #212121 0px 0px 10px;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -252,6 +253,8 @@ input, select, textarea {
 		margin-left: 1em;
 		margin-right: 1em;
 		background-color: white;
+		box-shadow: #212121 0px 0px 10px;
+		text-align: center;
 		}
 
 /* Contact Box */
@@ -265,7 +268,7 @@ input, select, textarea {
 		font-weight: bold;
 		margin-right: 1em;
 		margin-left: 1em;
-
+		box-shadow: #212121 0px 0px 10px;
 	}
 	#contactUsTitle{
 		color: white;
@@ -285,6 +288,7 @@ input, select, textarea {
 		font-weight: bold;
 		margin-right: 1em;
 		margin-left: 1em;
+		box-shadow: #212121 0px 0px 10px;
 	}	
 
 /* Row */
@@ -2492,6 +2496,7 @@ input, select, textarea {
 		text-decoration: none;
 		font-weight: 600;
 		letter-spacing: -0.025em;
+		box-shadow: #212121 0px 0px 10px 0px, #51cbe0 0px 0px 0px 1px;
 	}
 
 		input[type="submit"]:hover,
@@ -2810,6 +2815,7 @@ input, select, textarea {
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			color: #fff;
+
 		}
 
 			.wrapper.style3 .button {
